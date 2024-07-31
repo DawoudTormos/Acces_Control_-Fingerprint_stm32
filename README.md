@@ -1,3 +1,5 @@
+
+
 # Fingerprint Access Control System with STM32
 
 ## Goal
@@ -26,4 +28,4 @@ You get the code for programming the STM32f103c8t6 (Blue Pill). You need experie
  - This code contains a library for using a AM160 Fingerprint reader. It's a cheap fingerprint module with good enough performance and reliability.
  - You could make it communicate to a REST API through: a serial interface u love -> esp32 -> wifi -> Rest API
  - You could use a lot of electric lock and actuators through controlling their power (from inside of the room or vaultto not be easily hacked).
- - I will be adding a wireless Button for a secretary to open the door in the day. The button could be as far as you need. It send a Fixed Code over 433mhz or 315mhz to a receiver. I could go to rolling code (more secure) but that isn't needed for my use.
+ - I will be soon adding a wireless Button for a secretary to open the door in the day. The button could be as far as you need. It send a Fixed Code over 433mhz or 315mhz to a receiver. I could go to rolling code (more secure) but that isn't needed for my use.
